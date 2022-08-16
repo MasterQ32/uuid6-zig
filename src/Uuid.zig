@@ -684,6 +684,6 @@ pub const v7 = struct {
     }
 };
 
-test "" {
+test {
     std.testing.refAllDecls(Uuid);
 }
